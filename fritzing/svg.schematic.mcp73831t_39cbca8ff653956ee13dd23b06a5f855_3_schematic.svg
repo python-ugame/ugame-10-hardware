@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" y="0in" width="1.10972in" viewBox="0 0 79.8998 29.52"  x="0in" id="svg46" height="0.41in" gorn="0">
+    <desc >
+        <referenceFile >Untitled Sketch 2_schem.svg</referenceFile>
+    </desc>
+    <metadata  id="metadata52">
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <cc:Work xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="">
+                <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">image/svg+xml</dc:format>
+                <dc:type xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+                <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <defs  id="defs50"/>
+    <g partID="856927430"  id="g44" gorn="0.3">
+        <g  id="schematic" gorn="0.3.0">
+            <rect stroke="none" stroke-width="0" y="0.36" width="50.4"  class="interior rect" x="14.75" fill="#ffffff" id="rect2" height="28.8" gorn="0.3.0.0"/>
+            <text stroke="none" stroke-width="0" y="12.4933" style="font-family:Droid Sans;text-anchor:middle;" font-size="3.40001"  class="text" x="39.9501" fill="#000000" id="label" gorn="0.3.0.1">MCP73831/2</text>
+            <line stroke="#000000" stroke-linecap="round" y2="29.16" stroke-width="0.9" y1="0.36" x2="14.75"  class="other" x1="14.75" id="line5" gorn="0.3.0.2"/>
+            <line stroke="#000000" stroke-linecap="round" y2="29.16" stroke-width="0.9" y1="29.16" x2="65.1501"  class="other" x1="14.75" id="line7" gorn="0.3.0.3"/>
+            <line stroke="#000000" stroke-linecap="round" y2="0.36" stroke-width="0.9" y1="29.16" x2="65.1501"  class="other" x1="65.1501" id="line9" gorn="0.3.0.4"/>
+            <line stroke="#000000" stroke-linecap="round" y2="0.36" stroke-width="0.9" y1="0.36" x2="14.75"  class="other" x1="65.1501" id="line11" gorn="0.3.0.5"/>
+            <line stroke="#787878" stroke-linecap="round" y2="7.56" stroke-width="0.699998" y1="7.56" x2="14.75" connectorname="USB"  class="pin" id="connector0pin" x1="0.349999" gorn="0.3.0.6"/>
+            <g stroke="none" stroke-width="0" y="7.56" width="0.000283464"  class="terminal" x="0.349999" fill="none" id="connector0terminal" height="0.000283465" gorn="0.3.0.7"/>
+            <text font-family="Droid Sans" stroke="none" stroke-width="0" y="6.50999" text-anchor="middle" font-size="2.5"  class="text" fill="#8c8c8c" x="7.54999" id="text15" gorn="0.3.0.8">1</text>
+            <text stroke="none" stroke-width="0" y="8.2599897" style="font-family:Droid Sans;text-anchor:start;" font-size="2.79999"  class="text" x="16.85" fill="#787878" id="text17" gorn="0.3.0.9">STAT</text>
+            <line stroke="#787878" stroke-linecap="round" y2="14.76" stroke-width="0.699998" y1="14.76" x2="14.75" connectorname="GND"  class="pin" id="connector1pin" x1="0.349999" gorn="0.3.0.10"/>
+            <g stroke="none" stroke-width="0" y="14.76" width="0.000283464"  class="terminal" x="0.349999" fill="none" id="connector1terminal" height="0.000283465" gorn="0.3.0.11"/>
+            <text font-family="Droid Sans" stroke="none" stroke-width="0" y="13.71" text-anchor="middle" font-size="2.5"  class="text" fill="#8c8c8c" x="7.54999" id="text21" gorn="0.3.0.12">2</text>
+            <text stroke="none" stroke-width="0" y="15.46" style="font-family:Droid Sans;text-anchor:start;" font-size="2.79999"  class="text" x="16.85" fill="#787878" id="text23" gorn="0.3.0.13">VSS</text>
+            <line stroke="#787878" stroke-linecap="round" y2="21.96" stroke-width="0.699998" y1="21.96" x2="14.75" connectorname="CHG"  class="pin" id="connector2pin" x1="0.349999" gorn="0.3.0.14"/>
+            <g stroke="none" stroke-width="0" y="21.96" width="0.000283464"  class="terminal" x="0.349999" fill="none" id="connector2terminal" height="0.000283465" gorn="0.3.0.15"/>
+            <text font-family="Droid Sans" stroke="none" stroke-width="0" y="20.91" text-anchor="middle" font-size="2.5"  class="text" fill="#8c8c8c" x="7.54999" id="text27" gorn="0.3.0.16">3</text>
+            <text stroke="none" stroke-width="0" y="22.66" style="font-family:Droid Sans;text-anchor:start;" font-size="2.79999"  class="text" x="16.85" fill="#787878" id="text29" gorn="0.3.0.17">VBAT</text>
+            <line stroke="#787878" stroke-linecap="round" y2="7.56" stroke-width="0.699998" y1="7.56" x2="65.1501" connectorname="BATT"  class="pin" id="connector4pin" x1="79.55" gorn="0.3.0.18"/>
+            <g stroke="none" stroke-width="0" y="7.56" width="0.000283464"  class="terminal" x="79.55" fill="none" id="connector4terminal" height="0.000283465" gorn="0.3.0.19"/>
+            <text font-family="Droid Sans" stroke="none" stroke-width="0" y="6.50999" text-anchor="middle" font-size="2.5"  class="text" fill="#8c8c8c" x="72.35" id="text33" gorn="0.3.0.20">5</text>
+            <text stroke="none" stroke-width="0" y="8.2599897" style="font-family:Droid Sans;text-anchor:end;" font-size="2.79999"  class="text" x="63.0499" fill="#787878" id="text35" gorn="0.3.0.21">PROG</text>
+            <line stroke="#787878" stroke-linecap="round" y2="21.96" stroke-width="0.699998" y1="21.96" x2="65.1501" connectorname="DC"  class="pin" id="connector3pin" x1="79.55" gorn="0.3.0.22"/>
+            <g stroke="none" stroke-width="0" y="21.96" width="0.000283464"  class="terminal" x="79.55" fill="none" id="connector3terminal" height="0.000283465" gorn="0.3.0.23"/>
+            <text font-family="Droid Sans" stroke="none" stroke-width="0" y="20.91" text-anchor="middle" font-size="2.5"  class="text" fill="#8c8c8c" x="72.35" id="text39" gorn="0.3.0.24">4</text>
+            <text stroke="none" stroke-width="0" y="22.66" style="font-family:Droid Sans;text-anchor:end;" font-size="2.79999"  class="text" x="63.0499" fill="#787878" id="text41" gorn="0.3.0.25">VDD</text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,116 @@
+Testing and Flashing of the uGame 10 Project
+********************************************
+
+
+Prerequisites
+=============
+
+* A computer running Linux or Windows.
+* A JLink or Atmel-CMSIS programmer.
+* Python.
+* Adafruit AdaLink software from https://github.com/adafruit/Adafruit_Adalink
+* JLink Tools software from https://www.segger.com/downloads/jlink/
+* A micro-USB cable.
+* The attached bootloader.bin file.
+* The attached firmware.uf2 file.
+* The attached test.zip file.
+
+Installing the Software
+=======================
+
+To install the AdaLink software, the following steps are necessary:
+
+1. Download the code from
+   https://github.com/adafruit/Adafruit_Adalink/archive/master.zip
+
+2. Unpack the code and enter the directory.
+4. Run installation:
+
+    python setup.py develop
+
+5. Add adalink to the system path.
+
+To install the JLink Tools software, the following steps are necessary:
+
+1. Go to https://www.segger.com/downloads/jlink
+2. Under " J-Link Software and Documentation Pack" click " Click for
+   downloads"
+3. Download the version more suitable for your system.
+4. Run your installer.
+5. Make sure the installed software is added to the system path as described at
+   https://github.com/adafruit/Adafruit_Adalink#install-j-link-tools
+
+
+Test Procedure
+==============
+
+
+Connecting to the Board
+-----------------------
+
+In order to flash the bootloader, it is necessary to connect the JLink
+programmer to the four debugging pads on the bottom of the board. The
+connections are as follows:
+
+1. GND -- GND
+2. SWDIO -- TMS/SWDIO
+3. VCC -- VCC/Vref
+4. SWDCLK -- TCK/SWCLK
+
+The connections can be easily done by using hook probes, alligator clips or
+pogo pins.
+
+It is also necessary to provide power to the board with a USB cable connected
+to the board's micro-USB socket during flashing. When the USB cable is
+connected, the display will shine white, and the orange LED be on.
+
+
+Flashing the Bootloader
+-----------------------
+
+The attached "bootloader.bin" file needs to be flashed with the Adalink
+utility:
+
+    python adalink.py -v atsamd21g18 -p jlink -b bootloader.bin 0
+
+When this command completes, a new USB disk named "TRINKETBOOT" should appear
+on the computer to which the board is connected. The disk will contain two
+files called "CURRENT.UF2" and "INFO_UF2.TXT".
+
+
+Flashing the Firmware
+---------------------
+
+In order to flash the firmware, it is necessary to copy the file
+"firmware.uf2" to the TRINKETBOOT disk that appeared after flashing the
+bootloader. When this operation completes, the TRINKETBOOT disk will
+disappear, and after a moment a disk called CIRCUITPYTHON should appear. The
+disk will contain a single file called "boot_out.txt".
+
+
+Flashing the Test Program
+-------------------------
+
+To flash the test program, the unpacked contents of the attached "test.zip"
+ file need to be copied into the CIRCUITPYTHON disk. When this is successful,
+the board will reset, and the display will turn all blue. There should be no
+bad pixels on the display, all of it should be consistently blue.
+
+
+Testing the Buttons
+-------------------
+
+To finish the testing procedure, each of the six large buttons needs to be
+pressed -- every time that happens, a white symbol of that button will be
+displayed on the screen, and a sound will be played through the speaker. All
+six buttons have to work properly.
+
+Finally the small button marked "reset" should be pressed, which should result
+in the board resetting back to the beginning of the test program.
+
+
+Disconnecting
+-------------
+
+The USB cable can be disconnected, and then the programmer cables. The board
+is successfully tested at this point.

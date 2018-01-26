@@ -1,0 +1,20 @@
+Part/Designator,Manufacture Part Number/Description,Quantity,Remarks/Links
+U1,S25FL216K0PMFI011 flash memory,1,
+U2,MCP73831T-2ACI/OT charge management,1,
+U3,ATSAMD21E18A-AU microcontroller,1,
+U4,AP2112K-3.3TRG1 ldo,1,
+U5,PAM8301AAF audio amplifier,1,
+U6,"ST7735 14-pin 1.44"" TFT display",1,https://www.aliexpress.com/item/NoEnName-Null-1-44-inch-TFT-LCD-screen-128-128-14PIN-SPI-Serial-port-screen-ST7735S/32824094320.html https://www.aliexpress.com/item/1-44-Inch-128-128-Serial-SPI-TFT-Color-LCD-Module-128x128-Display-ST7735-SPI-Interface/32841704828.html
+D1,MBR120ESFT3G schottky diode,1,
+X1,1981568-1 microusb socket,1,"doesn’t have to be the original – equivalent is fine, for example https://www.aliexpress.com/item/10pcs-lot-5Pin-Micro-USB-5pin-long-pin-SMD-Female-connector-for-mobile-phone-Mini-USB/32803190762.html"
+X2,MK12C02 7-pin SPDT switch,1,"doesn’t have to be the original – equivalent is fine, for example https://www.aliexpress.com/item/10PCS-Lot-MP3-Toggle-Switch-MK12C02-7P-12608-Micro-Switch-Miniature-Toggle-MP3-Key-Button/32812362709.html"
+X3,3x4x2mm 2P tact switch,1,https://www.aliexpress.com/item/20PCS-3-4-2MM-3X4X2mm-SMD-Tact-2P-miniature-micro-switch-button-switch-new-Original/32595993056.html
+"X4,X5,X6,X7,X8,X9",SKPMAPE010 silicon switch,6,"doesn’t have to be the original – equivalent is fine, for example https://www.aliexpress.com/item/100pcs-lot-no-sound-6-6-5-SMD-silent-button-silicone-keypad-tact-switch-silicon-Switches/32807285073.html"
+SPKR,DET402-G-1 speaker,1,https://www.aliexpress.com/item/AAC-DET402-G-1-Electromagnetic-SMD-Passive-Buzzer-Speaker-3V-120mA-70dB-2731Hz-3x4-5x1-9mm/32800951819.html
+CHARGE,0603 LED orange,1,
+"R1,R8",0603 10kOhm resistor,2,
+"R2,R3",0603 2.2kOhm resistor,2,
+R4,0603 10Ohm resistor,1,
+"R5,R6,R7",0603 47kOhm resistor,3,
+"C1,C2",0805 1uF capacitor,2,
+C3,0805 0.1uF capacitor,1,
