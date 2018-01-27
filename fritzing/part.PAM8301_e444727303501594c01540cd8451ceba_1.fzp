@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<module referenceFile="sparkfun-analogic-dac_mcp4725-sot.fzp" moduleId="PAM8301_e444727303501594c01540cd8451ceba_1" fritzingVersion="0.7.2b">
+<module fritzingVersion="0.7.2b" referenceFile="sparkfun-analogic-dac_mcp4725-sot.fzp" moduleId="PAM8301_e444727303501594c01540cd8451ceba_1">
  <!-- generated from Sparkfun Eagle Library 'SparkFun-AnalogIC' DAC_MCP4725 SOT -->
  <version>4</version>
- <date>Tue Oct 17 2017</date>
+ <date>Sat Jan 27 2018</date>
  <label>U</label>
  <author>www.fritzing.org</author>
  <description>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
@@ -27,29 +27,29 @@ p, li { white-space: pre-wrap; }
  </properties>
  <views>
   <breadboardView>
-   <layers image="breadboard/PAM8301_9dfe837ea738b364664c3ec2cd63f82e_1_breadboard.svg">
+   <layers image="breadboard/PAM8301_c04fe701fb8d90f4e840692e9ffc73e0_2_breadboard.svg">
     <layer layerId="breadboard"/>
    </layers>
   </breadboardView>
   <schematicView>
-   <layers image="schematic/PAM8301_9dfe837ea738b364664c3ec2cd63f82e_1_schematic.svg">
+   <layers image="schematic/PAM8301_c04fe701fb8d90f4e840692e9ffc73e0_2_schematic.svg">
     <layer layerId="schematic"/>
    </layers>
   </schematicView>
   <pcbView>
-   <layers image="pcb/PAM8301_9dfe837ea738b364664c3ec2cd63f82e_1_pcb.svg">
+   <layers image="pcb/PAM8301_c04fe701fb8d90f4e840692e9ffc73e0_2_pcb.svg">
     <layer layerId="copper1"/>
     <layer layerId="silkscreen"/>
    </layers>
   </pcbView>
   <iconView>
-   <layers image="icon/PAM8301_9dfe837ea738b364664c3ec2cd63f82e_1_icon.svg">
+   <layers image="icon/PAM8301_c04fe701fb8d90f4e840692e9ffc73e0_2_icon.svg">
     <layer layerId="icon"/>
    </layers>
   </iconView>
  </views>
  <connectors>
-  <connector id="connector3" name="IN" type="male">
+  <connector name="IN" type="male" id="connector3">
    <description>IN</description>
    <views>
     <breadboardView>
@@ -63,7 +63,7 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector id="connector4" name="GND" type="male">
+  <connector name="GND" type="male" id="connector4">
    <description>GND</description>
    <views>
     <breadboardView>
@@ -77,7 +77,7 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector id="connector5" name="OUT-" type="male">
+  <connector name="OUT-" type="male" id="connector5">
    <description>OUT-</description>
    <views>
     <breadboardView>
@@ -91,7 +91,7 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector id="connector0" name="OUT+" type="male">
+  <connector name="OUT+" type="male" id="connector0">
    <description>OUT+</description>
    <views>
     <breadboardView>
@@ -105,7 +105,7 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector id="connector2" name="!SD" type="male">
+  <connector name="!SD" type="male" id="connector2">
    <description>!SD</description>
    <views>
     <breadboardView>
@@ -119,7 +119,7 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector id="connector1" name="VDD" type="male">
+  <connector name="VDD" type="male" id="connector1">
    <description>VDD</description>
    <views>
     <breadboardView>

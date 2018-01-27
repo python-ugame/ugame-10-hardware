@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<module moduleId="samd21e_6c5b28f7785e77367f65309f72e2780c_2" referenceFile="SMD_TQFP-32-5MM.fzp" fritzingVersion="0.5.2b.02.18.4756">
+<module fritzingVersion="0.5.2b.02.18.4756" referenceFile="SMD_TQFP-32-5MM.fzp" moduleId="samd21e_6c5b28f7785e77367f65309f72e2780c_2">
  <version>4</version>
- <date>Tue Sep 12 2017</date>
- <author></author>
+ <date>Sat Jan 27 2018</date>
+ <author>sheep</author>
  <description/>
  <title>TQFP32</title>
  <tags>
@@ -12,37 +12,38 @@
   <property name="family">generic ic</property>
   <property name="variant">variant 7</property>
   <property name="part number"></property>
-  <property name="editable pin labels">true</property>
+  <property name="editable pin labels">false</property>
   <property name="layer"></property>
   <property name="chip label">IC</property>
   <property name="connectors">32</property>
   <property name="package">TQFP</property>
+  <property name="flippedSMD">true</property>
  </properties>
  <views>
   <breadboardView>
-   <layers image="breadboard/samd21e_6c5b28f7785e77367f65309f72e2780c_2_breadboard.svg">
+   <layers image="breadboard/samd21e_09308eb1c5853ecc3be037d4a6841259_3_breadboard.svg">
     <layer layerId="breadboard"/>
    </layers>
   </breadboardView>
   <schematicView>
-   <layers image="schematic/samd21e_6c5b28f7785e77367f65309f72e2780c_2_schematic.svg">
+   <layers image="schematic/samd21e_09308eb1c5853ecc3be037d4a6841259_3_schematic.svg">
     <layer layerId="schematic"/>
    </layers>
   </schematicView>
   <pcbView>
-   <layers image="pcb/samd21e_6c5b28f7785e77367f65309f72e2780c_2_pcb.svg">
+   <layers image="pcb/samd21e_09308eb1c5853ecc3be037d4a6841259_3_pcb.svg">
     <layer layerId="copper1"/>
     <layer layerId="silkscreen"/>
    </layers>
   </pcbView>
   <iconView>
-   <layers image="icon/samd21e_6c5b28f7785e77367f65309f72e2780c_2_icon.svg">
+   <layers image="icon/samd21e_09308eb1c5853ecc3be037d4a6841259_3_icon.svg">
     <layer layerId="icon"/>
    </layers>
   </iconView>
  </views>
  <connectors>
-  <connector type="pad" id="connector0" name="PA00">
+  <connector name="PA00" type="pad" id="connector0">
    <description>PA00</description>
    <views>
     <breadboardView>
@@ -56,7 +57,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector1" name="PA01">
+  <connector name="PA01" type="pad" id="connector1">
    <description>PA01</description>
    <views>
     <breadboardView>
@@ -70,7 +71,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector2" name="PA02">
+  <connector name="PA02" type="pad" id="connector2">
    <description>PA02</description>
    <views>
     <breadboardView>
@@ -84,7 +85,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector3" name="PA03">
+  <connector name="PA03" type="pad" id="connector3">
    <description>PA03</description>
    <views>
     <breadboardView>
@@ -98,7 +99,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector4" name="PA04">
+  <connector name="PA04" type="pad" id="connector4">
    <description>PA04</description>
    <views>
     <breadboardView>
@@ -112,7 +113,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector5" name="PA05">
+  <connector name="PA05" type="pad" id="connector5">
    <description>PA05</description>
    <views>
     <breadboardView>
@@ -126,7 +127,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector6" name="PA06">
+  <connector name="PA06" type="pad" id="connector6">
    <description>PA06</description>
    <views>
     <breadboardView>
@@ -140,7 +141,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector7" name="PA07">
+  <connector name="PA07" type="pad" id="connector7">
    <description>PA07</description>
    <views>
     <breadboardView>
@@ -154,7 +155,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector8" name="VDDANA">
+  <connector name="VDDANA" type="pad" id="connector8">
    <description>VDDADA</description>
    <views>
     <breadboardView>
@@ -168,7 +169,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector9" name="GND">
+  <connector name="GND" type="pad" id="connector9">
    <description>GND</description>
    <views>
     <breadboardView>
@@ -182,7 +183,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector10" name="PA08">
+  <connector name="PA08" type="pad" id="connector10">
    <description>PA08</description>
    <views>
     <breadboardView>
@@ -196,7 +197,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector11" name="PA09">
+  <connector name="PA09" type="pad" id="connector11">
    <description>PA09</description>
    <views>
     <breadboardView>
@@ -210,7 +211,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector12" name="PA10">
+  <connector name="PA10" type="pad" id="connector12">
    <description>PA10</description>
    <views>
     <breadboardView>
@@ -224,7 +225,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector13" name="PA11">
+  <connector name="PA11" type="pad" id="connector13">
    <description>PA11</description>
    <views>
     <breadboardView>
@@ -238,7 +239,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector14" name="PA14">
+  <connector name="PA14" type="pad" id="connector14">
    <description>PA14</description>
    <views>
     <breadboardView>
@@ -252,7 +253,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector15" name="PA15">
+  <connector name="PA15" type="pad" id="connector15">
    <description>PA15</description>
    <views>
     <breadboardView>
@@ -266,7 +267,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector16" name="PA16">
+  <connector name="PA16" type="pad" id="connector16">
    <description>PA16</description>
    <views>
     <breadboardView>
@@ -280,7 +281,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector17" name="PA17">
+  <connector name="PA17" type="pad" id="connector17">
    <description>PA17</description>
    <views>
     <breadboardView>
@@ -294,7 +295,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector18" name="PA18">
+  <connector name="PA18" type="pad" id="connector18">
    <description>PA18</description>
    <views>
     <breadboardView>
@@ -308,7 +309,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector19" name="PA19">
+  <connector name="PA19" type="pad" id="connector19">
    <description>PA19</description>
    <views>
     <breadboardView>
@@ -322,7 +323,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector20" name="PA22">
+  <connector name="PA22" type="pad" id="connector20">
    <description>PA22</description>
    <views>
     <breadboardView>
@@ -336,7 +337,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector21" name="PA23">
+  <connector name="PA23" type="pad" id="connector21">
    <description>PA23</description>
    <views>
     <breadboardView>
@@ -350,7 +351,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector22" name="PA24">
+  <connector name="PA24" type="pad" id="connector22">
    <description>PA24</description>
    <views>
     <breadboardView>
@@ -364,7 +365,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector23" name="PA25">
+  <connector name="PA25" type="pad" id="connector23">
    <description>PA25</description>
    <views>
     <breadboardView>
@@ -378,7 +379,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector24" name="PA27">
+  <connector name="PA27" type="pad" id="connector24">
    <description>PA27</description>
    <views>
     <breadboardView>
@@ -392,7 +393,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector25" name="!RESET">
+  <connector name="!RESET" type="pad" id="connector25">
    <description>!RESET</description>
    <views>
     <breadboardView>
@@ -406,7 +407,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector26" name="PA28">
+  <connector name="PA28" type="pad" id="connector26">
    <description>PA28</description>
    <views>
     <breadboardView>
@@ -420,7 +421,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector27" name="GND">
+  <connector name="GND" type="pad" id="connector27">
    <description>GND</description>
    <views>
     <breadboardView>
@@ -434,7 +435,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector28" name="VDDCORE">
+  <connector name="VDDCORE" type="pad" id="connector28">
    <description>VDDCORE</description>
    <views>
     <breadboardView>
@@ -448,7 +449,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector29" name="VDDIN">
+  <connector name="VDDIN" type="pad" id="connector29">
    <description>VDDIN</description>
    <views>
     <breadboardView>
@@ -462,7 +463,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector30" name="PA30">
+  <connector name="PA30" type="pad" id="connector30">
    <description>PA30</description>
    <views>
     <breadboardView>
@@ -476,7 +477,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="pad" id="connector31" name="PA31">
+  <connector name="PA31" type="pad" id="connector31">
    <description>PA31</description>
    <views>
     <breadboardView>

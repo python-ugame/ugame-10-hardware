@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" width="0.42519683in" x="0in" viewBox="0 0 30.614154 5.1023596" gorn="0"  height="0.070866033in" id="svg37" y="0in">
+    <desc >
+        <referenceFile >tft_pcb.svg</referenceFile>
+    </desc>
+    <metadata  id="metadata43">
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <cc:Work xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" rdf:about="">
+                <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">image/svg+xml</dc:format>
+                <dc:type xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+                <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <defs  id="defs41"/>
+    <g transform="translate(-16.054054,-3.7919099)" >
+        <g >
+            <g >
+                <g gorn="0.3.0.0.0"  id="copper1">
+                    <rect stroke="none" width="1.1338594" x="16.054001" connectorname="14" stroke-width="0" gorn="0.3.0.0.0.0"  height="5.1023598" style="stroke-linecap:round" id="connector13pad" y="3.7919099" fill="#f7bd13"/>
+                    <rect stroke="none" width="1.1338594" x="18.32172" connectorname="13" stroke-width="0" gorn="0.3.0.0.0.1"  height="5.1023598" style="stroke-linecap:round" id="connector12pad" y="3.7919099" fill="#f7bd13"/>
+                    <rect stroke="none" width="1.1338594" x="20.589439" connectorname="12" stroke-width="0" gorn="0.3.0.0.0.2"  height="5.1023598" style="stroke-linecap:round" id="connector11pad" y="3.7919099" fill="#f7bd13"/>
+                    <rect stroke="none" width="1.1338594" x="22.857157" connectorname="11" stroke-width="0" gorn="0.3.0.0.0.3"  height="5.1023598" style="stroke-linecap:round" id="connector10pad" y="3.7919099" fill="#f7bd13"/>
+                    <rect stroke="none" width="1.1338594" x="25.124876" connectorname="10" stroke-width="0" gorn="0.3.0.0.0.4"  height="5.1023598" style="stroke-linecap:round" id="connector9pad" y="3.7919099" fill="#f7bd13"/>
+                    <rect stroke="none" width="1.1338594" x="27.392595" connectorname="9" stroke-width="0" gorn="0.3.0.0.0.5"  height="5.1023598" style="stroke-linecap:round" id="connector8pad" y="3.7919099" fill="#f7bd13"/>
+                    <rect stroke="none" width="1.1338594" x="29.660315" connectorname="8" stroke-width="0" gorn="0.3.0.0.0.6"  height="5.1023598" style="stroke-linecap:round" id="connector7pad" y="3.7919099" fill="#f7bd13"/>
+                    <rect stroke="none" width="1.1338594" x="31.928032" connectorname="7" stroke-width="0" gorn="0.3.0.0.0.7"  height="5.1023598" style="stroke-linecap:round" id="connector6pad" y="3.7919099" fill="#f7bd13"/>
+                    <rect stroke="none" width="1.1338594" x="34.195751" connectorname="6" stroke-width="0" gorn="0.3.0.0.0.8"  height="5.1023598" style="stroke-linecap:round" id="connector5pad" y="3.7919099" fill="#f7bd13"/>
+                    <rect stroke="none" width="1.1338594" x="36.46347" connectorname="5" stroke-width="0" gorn="0.3.0.0.0.9"  height="5.1023598" style="stroke-linecap:round" id="connector4pad" y="3.7919099" fill="#f7bd13"/>
+                    <rect stroke="none" width="1.1338594" x="38.73119" connectorname="4" stroke-width="0" gorn="0.3.0.0.0.10"  height="5.1023598" style="stroke-linecap:round" id="connector3pad" y="3.7919099" fill="#f7bd13"/>
+                    <rect stroke="none" width="1.1338594" x="40.998909" connectorname="3" stroke-width="0" gorn="0.3.0.0.0.11"  height="5.1023598" style="stroke-linecap:round" id="connector2pad" y="3.7919099" fill="#f7bd13"/>
+                    <rect stroke="none" width="1.1338594" x="43.266628" connectorname="2" stroke-width="0" gorn="0.3.0.0.0.12"  height="5.1023598" style="stroke-linecap:round" id="connector1pad" y="3.7919099" fill="#f7bd13"/>
+                    <rect stroke="none" width="1.1338594" x="45.534344" connectorname="1" stroke-width="0" gorn="0.3.0.0.0.13"  height="5.1023598" style="stroke-linecap:round" id="connector0pad" y="3.7919099" fill="#f7bd13"/>
+                    <g gorn="0.3.0.0.0.14"  id="copper0"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

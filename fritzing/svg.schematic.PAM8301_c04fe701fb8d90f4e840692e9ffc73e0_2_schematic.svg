@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" width="1.00972in" x="0in" viewBox="0 0 72.6998 29.52" gorn="0"  height="0.41in" id="svg52" y="0in">
+    <desc  id="desc2">
+        <referenceFile >pam8301.svg</referenceFile>
+    </desc>
+    <metadata  id="metadata58">
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <cc:Work xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" rdf:about="">
+                <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">image/svg+xml</dc:format>
+                <dc:type xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+                <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <defs  id="defs56"/>
+    <g gorn="0.3"  partID="857276460" id="g50">
+        <g gorn="0.3.0"  id="schematic">
+            <rect stroke="none" width="43.2" x="14.75" stroke-width="0" gorn="0.3.0.0" class="interior rect"  height="28.8" id="rect2" y="0.36" fill="#ffffff"/>
+            <text stroke="none" x="36.350101" stroke-width="0" gorn="0.3.0.1" class="text"  style="font-family:Droid Sans;text-anchor:middle;" id="label" y="12.4933" fill="#000000" font-size="3.40001">PAM8301</text>
+            <line x1="14.75" stroke="#000000" x2="57.9501" stroke-width="0.9" y1="29.16" gorn="0.3.0.2" class="other"  id="line5" stroke-linecap="round" y2="29.16"/>
+            <line x1="57.9501" stroke="#000000" x2="57.9501" stroke-width="0.9" y1="29.16" gorn="0.3.0.3" class="other"  id="line7" stroke-linecap="round" y2="0.36"/>
+            <line x1="57.9501" stroke="#000000" x2="14.75" stroke-width="0.9" y1="0.36" gorn="0.3.0.4" class="other"  id="line9" stroke-linecap="round" y2="0.36"/>
+            <line x1="14.75" stroke="#000000" x2="14.75" stroke-width="0.9" y1="0.36" gorn="0.3.0.5" class="other"  id="line11" stroke-linecap="round" y2="29.16"/>
+            <line x1="0.349999" stroke="#787878" x2="14.75" connectorname="VOUT" stroke-width="0.699998" y1="7.56" gorn="0.3.0.6" class="pin"  id="connector2pin" stroke-linecap="round" y2="7.56"/>
+            <g stroke="none" width="0.000283464" x="0.349999" stroke-width="0" gorn="0.3.0.7" class="terminal"  height="0.000283465" id="connector2terminal" y="7.56" fill="none"/>
+            <text stroke="none" x="7.54999" stroke-width="0" font-family="Droid Sans" gorn="0.3.0.8" class="text"  id="text15" y="6.50999" text-anchor="middle" fill="#8c8c8c" font-size="2.5">3</text>
+            <text stroke="none" x="16.85" stroke-width="0" gorn="0.3.0.9" class="text"  style="font-family:Droid Sans;text-anchor:start;" id="text17" y="8.2599897" fill="#787878" font-size="2.23999">!SD</text>
+            <line x1="0.349999" stroke="#787878" x2="14.75" connectorname="VSS" stroke-width="0.699998" y1="14.76" gorn="0.3.0.10" class="pin"  id="connector1pin" stroke-linecap="round" y2="14.76"/>
+            <g stroke="none" width="0.000283464" x="0.349999" stroke-width="0" gorn="0.3.0.11" class="terminal"  height="0.000283465" id="connector1terminal" y="14.76" fill="none"/>
+            <text stroke="none" x="7.54999" stroke-width="0" font-family="Droid Sans" gorn="0.3.0.12" class="text"  id="text21" y="13.71" text-anchor="middle" fill="#8c8c8c" font-size="2.5">2</text>
+            <text stroke="none" x="16.85" stroke-width="0" gorn="0.3.0.13" class="text"  style="font-family:Droid Sans;text-anchor:start;" id="text23" y="15.46" fill="#787878" font-size="2.23999">VDD</text>
+            <line x1="0.349999" stroke="#787878" x2="14.75" connectorname="VDD" stroke-width="0.699998" y1="21.96" gorn="0.3.0.14" class="pin"  id="connector0pin" stroke-linecap="round" y2="21.96"/>
+            <g stroke="none" width="0.000283464" x="0.349999" stroke-width="0" gorn="0.3.0.15" class="terminal"  height="0.000283465" id="connector0terminal" y="21.96" fill="none"/>
+            <text stroke="none" x="7.54999" stroke-width="0" font-family="Droid Sans" gorn="0.3.0.16" class="text"  id="text27" y="20.91" text-anchor="middle" fill="#8c8c8c" font-size="2.5">1</text>
+            <text stroke="none" x="16.85" stroke-width="0" gorn="0.3.0.17" class="text"  style="font-family:Droid Sans;text-anchor:start;" id="text29" y="22.66" fill="#787878" font-size="2.23999">OUT+</text>
+            <line x1="72.35" stroke="#787878" x2="57.9501" connectorname="AO" stroke-width="0.699998" y1="7.56" gorn="0.3.0.18" class="pin"  id="connector3pin" stroke-linecap="round" y2="7.56"/>
+            <g stroke="none" width="0.000283464" x="72.35" stroke-width="0" gorn="0.3.0.19" class="terminal"  height="0.000283465" id="connector3terminal" y="7.56" fill="none"/>
+            <text stroke="none" x="65.15" stroke-width="0" font-family="Droid Sans" gorn="0.3.0.20" class="text"  id="text33" y="6.50999" text-anchor="middle" fill="#8c8c8c" font-size="2.5">4</text>
+            <text stroke="none" x="55.849899" stroke-width="0" gorn="0.3.0.21" class="text"  style="font-family:Droid Sans;text-anchor:end;" id="text35" y="8.2599897" fill="#787878" font-size="2.23999">IN</text>
+            <line x1="72.35" stroke="#787878" x2="57.9501" connectorname="SCL" stroke-width="0.699998" y1="14.76" gorn="0.3.0.22" class="pin"  id="connector4pin" stroke-linecap="round" y2="14.76"/>
+            <g stroke="none" width="0.000283464" x="72.35" stroke-width="0" gorn="0.3.0.23" class="terminal"  height="0.000283465" id="connector4terminal" y="14.76" fill="none"/>
+            <text stroke="none" x="65.15" stroke-width="0" font-family="Droid Sans" gorn="0.3.0.24" class="text"  id="text39" y="13.71" text-anchor="middle" fill="#8c8c8c" font-size="2.5">5</text>
+            <text stroke="none" x="55.849899" stroke-width="0" gorn="0.3.0.25" class="text"  style="font-family:Droid Sans;text-anchor:end;" id="text41" y="15.46" fill="#787878" font-size="2.23999">GND</text>
+            <line x1="72.35" stroke="#787878" x2="57.9501" connectorname="SDA" stroke-width="0.699998" y1="21.96" gorn="0.3.0.26" class="pin"  id="connector5pin" stroke-linecap="round" y2="21.96"/>
+            <g stroke="none" width="0.000283464" x="72.35" stroke-width="0" gorn="0.3.0.27" class="terminal"  height="0.000283465" id="connector5terminal" y="21.96" fill="none"/>
+            <text stroke="none" x="65.15" stroke-width="0" font-family="Droid Sans" gorn="0.3.0.28" class="text"  id="text45" y="20.91" text-anchor="middle" fill="#8c8c8c" font-size="2.5">6</text>
+            <text stroke="none" x="55.849899" stroke-width="0" gorn="0.3.0.29" class="text"  style="font-family:Droid Sans;text-anchor:end;" id="text47" y="22.66" fill="#787878" font-size="2.23999">OUT-</text>
+        </g>
+    </g>
+</svg>
