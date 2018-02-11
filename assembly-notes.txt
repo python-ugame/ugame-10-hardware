@@ -1,0 +1,7 @@
+There are some notes for the assembly of this device:
+
+1. The speaker needs to be protected with a piece of tape when the boards are
+   washed after soldering, to prevent the fluid entering them.
+2. The screen has to be left unattached, so that it's possible to later solder
+   the battery without melting the screen's plastic.
+3. Care must be taken to make sure the USB socket is straight.
