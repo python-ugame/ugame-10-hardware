@@ -1,0 +1,20 @@
+References	Qty	Description	Digikey	Mouser	RS	Newark	Farnell
+U1	1	S25FL216K0PMFI011 flash memory					
+U2	1	MCP73831T-2ACI/OT charge management					
+U3	1	ATSAMD21E18A-AU microcontroller					
+U4	1	AP2112K-3.3TRG1 ldo					
+U5	1	PAM8301AAF audio amplifier					
+U6	1	ST7735 14-pin 1.44" TFT display					
+D1	1	MBR120ESFT3G schottky diode					
+X1	1	1981568-1 microusb socket					
+X2	1	MK12C02 7-pin SPDT switch					
+X3	1	3x4x2mm 2P tact switch					
+X4,X5,X6,X7,X8,X9	6	SKPMAPE010 silicon switch					
+SPKR	1	DET402-G-1 speaker					
+CHARGE	1	0603 LED orange					
+R1,R8	2	0603 10kOhm resistor					
+R2,R3	2	0603 2.2kOhm resistor					
+R4	1	0603 10Ohm resistor					
+R5,R6,R7	3	0603 47kOhm resistor					
+C1,C2	2	0805 1uF capacitor					
+C3	1	0805 0.1uF capacitor					
