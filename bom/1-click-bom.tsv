@@ -1,20 +1,20 @@
-References	Qty	Description	Digikey	Mouser	RS	Newark	Farnell
-U1	1	S25FL216K0PMFI011 flash memory					
-U2	1	MCP73831T-2ACI/OT charge management					
-U3	1	ATSAMD21E18A-AU microcontroller					
-U4	1	AP2112K-3.3TRG1 ldo					
-U5	1	PAM8301AAF audio amplifier					
-U6	1	ST7735 14-pin 1.44" TFT display					
-D1	1	MBR120ESFT3G schottky diode					
-X1	1	1981568-1 microusb socket					
-X2	1	MK12C02 7-pin SPDT switch					
-X3	1	3x4x2mm 2P tact switch					
-X4,X5,X6,X7,X8,X9	6	SKPMAPE010 silicon switch					
-SPKR	1	DET402-G-1 speaker					
-CHARGE	1	0603 LED orange					
-R1,R8	2	0603 10kOhm resistor					
-R2,R3	2	0603 2.2kOhm resistor					
-R4	1	0603 10Ohm resistor					
-R5,R6,R7	3	0603 47kOhm resistor					
-C1,C2	2	0805 1uF capacitor					
-C3	1	0805 0.1uF capacitor					
+References	Qty	Description	Manufacturer	MPN	Manufacturer	MPN	Manufacturer	MPN	Manufacturer	MPN	Manufacturer	MPN	Manufacturer	MPN	Manufacturer	MPN	Manufacturer	MPN	Manufacturer	MPN	Digikey	Mouser	RS	Newark	Farnell
+U1	1	S25FL216K	Cypress Semiconductor	S25FL216K0PMFI011	Cypress Semiconductor	S25FL216K0PMFI010	Cypress Semiconductor	S25FL216K0PMFI040	Cypress Semiconductor	S25FL216K0PMFI013	Cypress Semiconductor	S25FL216K0PMFI041	Cypress Semiconductor	S25FL216K0PMFI043	Cypress Semiconductor	S25FL216K0PXEI909	Cypress Semiconductor	S25FL216K0XMFI040	AMD	S25FL216K0XMFI040	S25FL216K0PXEI909-ND			45W4074	2706072
+U2	1	MCP73831T-2ACI/OT charge management	Microchip	MCP73831T-2ACI/OT	Honeywell / Microswitch	MCP73831T-2ACI/OT																			
+U3	1	ATSAMD21E18A-AU microcontroller	Microchip	ATSAMD21E18A-AU	Microchip	ATSAMD21E18A-AUT																			
+U4	1	AP2112K-3.3TRG1 ldo	Diodes Inc.	AP2112K-3.3TRG1																					
+U5	1	PAM8301AAF audio amplifier	Diodes Inc.	PAM8301AAF																					
+U6	1	ST7735 14-pin 1.44" TFT display																							
+D1	1	MBR120ESFT3G schottky diode	ON Semiconductor	MBR120ESFT3G																					
+X1	1	 microusb socket	TE Connectivity	1981568-1																					
+X2	1	MK12C02 7-pin SPDT switch																							
+X3	1	3x4x2mm 2P tact switch																							
+X4,X5,X6,X7,X8,X9	6	SKPMAPE010 silicon switch																							
+SPKR	1	DET402-G-1 speaker																							
+CHARGE	1	0603 LED orange	Broadcom	HSMD-C190																					
+R1,R8	2	0603 10kOhm resistor	Vishay	CRCW060310K0FKEA																					
+R2,R3	2	0603 2.2kOhm resistor	Bourns	CR0603-JW-222ELF																					
+R4	1	0603 10Ohm resistor	Vishay	CRCW060310R0FKEA																					
+R5,R6,R7	3	0603 47kOhm resistor	Vishay	CRCW060347K0FKEA																					
+C1,C2	2	0805 1uF capacitor	Yageo	CC0805KKX7R8BB105																					
+C3	1	0805 0.1uF capacitor	Yageo	CC0805KRX7R9BB104																					
